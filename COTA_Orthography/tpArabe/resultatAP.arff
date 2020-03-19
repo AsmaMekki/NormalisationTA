@@ -1,0 +1,37 @@
+@relation MyRelation
+
+@attribute car_spec {A}
+@attribute prec1_spec {b,n,h,w,'\'',*,l,m,E,r,y,d,$,D,j,k,q,s,t,v,H,z,A,f,S,g,T,'}',Z}
+@attribute prec2_spec {H,y,b,l,A,S,E,n,m,f,h,d,<,'}',T,w,-,r,t,|,j,v,k,Z,>,$,D,s,q,*,x,z,&,'\'',g,'?'}
+@attribute suiv1_spec {'\'',_,-}
+@attribute suiv2_spec {-}
+@attribute suiv3_spec {-}
+@attribute deb1 {m,l,t,D,n,>,k,r,s,h,<,b,w,$,*,E,j,x,|,A,f,y,d,q,z,v,H,g,S,T,'?'}
+@attribute deb2 {r,m,D,q,w,l,t,n,A,j,y,*,h,H,b,E,$,S,x,k,d,s,f,>,T,&,z,g,v,<,Z,'}','?',i}
+@attribute fin1 {b,n,h,w,'\'',*,l,m,E,r,y,d,$,D,j,k,q,s,t,v,H,z,A,f,S,g,T,'}',Z}
+@attribute fin2 {A,'\'',_}
+@attribute classe {pas_changement,remp_alif_t}
+
+@data
+A,b,H,-,-,-,m,r,b,A,pas_changement
+A,n,y,-,-,-,l,m,n,A,pas_changement
+A,w,A,-,-,-,t,w,w,A,pas_changement
+A,m,w,-,-,-,A,l,m,A,remp_alif_t
+A,y,E,-,-,-,l,l,y,A,remp_alif_t
+A,y,E,-,-,-,A,l,y,A,remp_alif_t
+A,d,y,-,-,-,j,d,d,A,remp_alif_t
+A,d,b,-,-,-,t,b,d,A,pas_changement
+A,j,y,-,-,-,A,l,j,A,remp_alif_t
+A,A,n,-,-,-,A,l,A,A,remp_alif_t
+A,n,y,-,-,-,H,b,n,A,pas_changement
+A,w,m,-,-,-,n,l,w,A,pas_changement
+A,h,T,-,-,-,$,r,h,A,pas_changement
+A,y,l,-,-,-,m,n,y,A,remp_alif_t
+A,h,w,-,-,-,m,$,h,A,remp_alif_t
+A,D,H,-,-,-,A,l,D,A,remp_alif_t
+A,T,H,-,-,-,m,H,T,A,remp_alif_t
+A,r,T,-,-,-,l,l,r,A,remp_alif_t
+A,d,A,-,-,-,s,y,d,A,remp_alif_t
+A,y,A,-,-,-,h,*,y,A,pas_changement
+A,l,H,-,-,-,A,l,l,A,remp_alif_t
+A,$,A,-,-,-,h,$,$,A,remp_alif_t

@@ -1,0 +1,15 @@
+@relation MyRelation
+
+@attribute car_spec {m}
+@attribute prec1_spec {'\'',|,>,&,<,'}',A,b,p,t,v,j,H,x,d,*,r,z,s,$,c,S,D,T,Z,E,g,f,q,k,l,m,n,h,w,Y,y,F,N,K,a,u,i,~,o,'{',-,_}
+@attribute prec2_spec {'\'',|,>,&,<,'}',A,b,p,t,v,j,H,x,d,*,r,z,s,$,c,S,D,T,Z,E,g,f,q,k,l,m,n,h,w,Y,y,F,N,K,a,u,i,~,o,'{',-,_}
+@attribute suiv1_spec {'\'',|,>,&,<,'}',A,b,p,t,v,j,H,x,d,*,r,z,s,$,c,S,D,T,Z,E,g,f,q,k,l,m,n,h,w,Y,y,F,N,K,a,u,i,~,o,'{',-,_}
+@attribute suiv2_spec {'\'',|,>,&,<,'}',A,b,p,t,v,j,H,x,d,*,r,z,s,$,c,S,D,T,Z,E,g,f,q,k,l,m,n,h,w,Y,y,F,N,K,a,u,i,~,o,'{',-,_}
+@attribute suiv3_spec {'\'',|,>,&,<,'}',A,b,p,t,v,j,H,x,d,*,r,z,s,$,c,S,D,T,Z,E,g,f,q,k,l,m,n,h,w,Y,y,F,N,K,a,u,i,~,o,'{',-,_}
+@attribute deb1 {'\'',|,>,&,<,'}',A,b,p,t,v,j,H,x,d,*,r,z,s,$,c,S,D,T,Z,E,g,f,q,k,l,m,n,h,w,Y,y,F,N,K,a,u,i,~,o,'{',-,_}
+@attribute deb2 {'\'',|,>,&,<,'}',A,b,p,t,v,j,H,x,d,*,r,z,s,$,c,S,D,T,Z,E,g,f,q,k,l,m,n,h,w,Y,y,F,N,K,a,u,i,~,o,'{',-,_}
+@attribute fin1 {'\'',|,>,&,<,'}',A,b,p,t,v,j,H,x,d,*,r,z,s,$,c,S,D,T,Z,E,g,f,q,k,l,m,n,h,w,Y,y,F,N,K,a,u,i,~,o,'{',-,_}
+@attribute fin2 {'\'',|,>,&,<,'}',A,b,p,t,v,j,H,x,d,*,r,z,s,$,c,S,D,T,Z,E,g,f,q,k,l,m,n,h,w,Y,y,F,N,K,a,u,i,~,o,'{',-,_}
+@attribute classe {supp_esp,supp_esp_supp_lam,supp_esp_ajout_alif,ajout_alif}
+
+@data

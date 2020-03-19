@@ -1,0 +1,41 @@
+@relation MyRelation
+
+@attribute car_spec {f}
+@attribute prec1_spec {-,_,w}
+@attribute prec2_spec {-,_}
+@attribute suiv1_spec {_,l,A,-}
+@attribute suiv2_spec {A,_,m,l,x,S,t,y,E,r,$,q,f,j,H,d,w,n,b,Z,>,g,k,s,z,<,T,v,h,D,*,|,-}
+@attribute suiv3_spec {l,A,m,s,_,x,y,S,H,t,w,g,E,d,r,j,$,q,n,f,z,k,b,'}',T,Z,>,h,D,<,v,&,*,|,-}
+@attribute deb1 {f,_,w}
+@attribute deb2 {_,l,A,f,w}
+@attribute fin1 {A,y,H,w,d,b,m,z,r,s,j,f,n,k,l,T,q,S,h,D,E,$,x,g,'}',v,t,Z,>,*}
+@attribute fin2 {'\'',r,p,m,t,d,l,y,n,b,s,h,*,f,E,Z,x,q,j,T,H,$,Y,k,>,w,A,v,S,z,'}',D,g}
+@attribute classe {supp_esp,supp_esp_supp_lam,supp_esp_ajout_alif,ajout_alif}
+
+@data
+f,-,-,_,A,l,f,_,A,'\'',?
+f,-,-,l,_,A,f,l,A,'\'',?
+f,-,-,l,_,m,f,l,A,'\'',?
+f,-,-,A,l,_,f,A,A,'\'',?
+f,-,-,A,l,_,f,A,y,r,?
+f,-,-,_,A,l,f,_,H,p,?
+f,w,-,_,A,l,w,f,b,p,?
+f,w,-,l,_,A,w,f,b,p,?
+f,w,-,l,_,t,w,f,b,p,?
+f,w,-,A,l,_,w,f,y,p,?
+f,w,-,l,_,x,w,f,y,p,?
+f,w,-,l,_,A,w,f,y,p,?
+f,w,-,_,A,l,w,f,y,p,?
+f,_,-,_,A,l,_,f,A,'\'',?
+f,_,-,l,_,A,_,f,A,'\'',?
+f,_,-,l,_,m,_,f,A,'\'',?
+f,_,-,A,l,_,_,f,A,'\'',?
+f,_,-,A,l,_,_,f,y,r,?
+f,_,-,_,A,l,_,f,H,p,?
+f,w,_,_,A,l,_,w,b,p,?
+f,w,_,l,_,A,_,w,b,p,?
+f,w,_,l,_,t,_,w,b,p,?
+f,w,_,A,l,_,_,w,y,p,?
+f,w,_,l,_,x,_,w,y,p,?
+f,w,_,l,_,A,_,w,y,p,?
+f,w,_,_,A,l,_,w,y,p,?

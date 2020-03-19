@@ -1,0 +1,68 @@
+@relation MyRelation
+
+@attribute car_spec {h}
+@attribute prec1_spec {-,_,w,b,f}
+@attribute prec2_spec {-,_,w,b,f}
+@attribute suiv1_spec {A,_,l,-}
+@attribute suiv2_spec {_,A,l,m,x,S,t,y,E,r,$,q,f,j,H,d,w,n,b,s,Z,>,g,k,z,<,T,v,h,|,D,*,-}
+@attribute suiv3_spec {A,l,_,m,s,x,y,S,H,t,w,g,E,d,r,j,$,q,n,f,z,k,b,'}',T,Z,>,h,D,<,v,|,&,*,-}
+@attribute deb1 {h,_}
+@attribute deb2 {A,_,l,h,w,b,f}
+@attribute fin1 {A,y,H,w,d,b,m,z,r,s,E,j,f,n,k,l,T,q,S,h,D,$,x,g,|,'}',v,t,Z,>,*,_}
+@attribute fin2 {'\'',r,p,m,t,d,l,y,n,b,s,h,f,*,E,Z,x,q,j,T,H,$,Y,k,>,w,A,v,S,z,'}',D,g,_}
+@attribute classe {supp_esp_supp_alif,supp_esp,supp_esp_supp_lam,supp_esp_supp_lam_supp_alif,supp_esp_ajout_alif,ajout_alif}
+
+@data
+h,_,-,A,_,A,_,h,A,'\'',supp_esp_supp_alif
+h,_,-,_,A,l,_,h,A,'\'',supp_esp
+h,_,-,_,A,l,_,h,y,p,supp_esp
+h,_,-,A,l,_,_,h,y,p,supp_esp
+h,_,-,A,l,_,_,h,w,m,supp_esp
+h,_,-,l,_,y,_,h,w,m,supp_esp_ajout_alif
+h,_,-,A,_,A,_,h,T,q,supp_esp_supp_alif
+h,_,-,_,A,l,_,h,T,q,supp_esp
+h,_,-,l,_,A,_,h,T,q,supp_esp_supp_lam
+h,_,-,A,l,_,_,h,T,q,supp_esp
+h,_,-,l,_,m,_,h,T,q,supp_esp_ajout_alif
+h,b,_,A,_,A,_,b,b,p,supp_esp_supp_alif
+h,b,_,A,l,_,_,b,b,p,supp_esp
+h,b,_,l,_,m,_,b,b,p,supp_esp_ajout_alif
+h,f,w,_,A,l,_,w,d,p,supp_esp
+h,f,w,l,_,A,_,w,d,p,supp_esp_supp_lam
+h,b,w,l,_,m,_,w,d,p,supp_esp_ajout_alif
+h,f,_,A,l,_,_,f,r,b,supp_esp
+h,f,_,A,l,_,_,f,y,p,supp_esp
+h,_,-,A,_,A,_,h,A,'\'',supp_esp_supp_alif
+h,_,-,_,A,l,_,h,A,'\'',supp_esp
+h,_,-,l,_,A,_,h,A,'\'',supp_esp_supp_lam
+h,_,-,A,l,_,_,h,A,'\'',supp_esp
+h,_,-,l,_,m,_,h,A,'\'',supp_esp_ajout_alif
+h,_,-,A,l,_,_,h,A,'\'',supp_esp
+h,w,_,A,_,A,_,w,A,'\'',supp_esp_supp_alif
+h,w,_,_,A,l,_,w,A,'\'',supp_esp
+h,w,_,l,_,A,_,w,A,'\'',supp_esp_supp_lam
+h,w,_,A,l,_,_,w,A,'\'',supp_esp
+h,w,_,l,_,m,_,w,A,'\'',supp_esp_ajout_alif
+h,w,_,A,l,_,_,w,A,'\'',supp_esp
+h,b,_,A,_,A,_,b,A,'\'',supp_esp_supp_alif
+h,b,_,_,A,l,_,b,A,'\'',supp_esp
+h,b,_,l,_,A,_,b,A,'\'',supp_esp_supp_lam
+h,b,_,A,l,_,_,b,A,'\'',supp_esp
+h,b,_,l,_,m,_,b,A,'\'',supp_esp_ajout_alif
+h,b,_,A,l,_,_,b,A,'\'',supp_esp
+h,f,w,A,_,A,_,w,b,p,supp_esp_supp_alif
+h,f,w,_,A,l,_,w,b,p,supp_esp
+h,f,w,l,_,A,_,w,b,p,supp_esp_supp_lam
+h,f,w,A,l,_,_,w,b,p,supp_esp
+h,f,w,l,_,m,_,w,b,p,supp_esp_ajout_alif
+h,b,w,A,_,A,_,w,A,t,supp_esp_supp_alif
+h,b,w,_,A,l,_,w,A,t,supp_esp
+h,b,w,l,_,A,_,w,A,t,supp_esp_supp_lam
+h,b,w,A,l,_,_,w,A,t,supp_esp
+h,b,w,l,_,S,_,w,A,t,supp_esp_ajout_alif
+h,b,w,A,l,_,_,w,A,t,supp_esp
+h,f,_,A,_,A,_,f,Z,b,supp_esp_supp_alif
+h,f,_,_,A,l,_,f,Z,b,supp_esp
+h,f,_,l,_,A,_,f,Z,b,supp_esp_supp_lam
+h,f,_,A,l,_,_,f,Z,b,supp_esp
+h,f,_,l,_,H,_,f,Z,b,supp_esp_ajout_alif

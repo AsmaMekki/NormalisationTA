@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DIC_TUN_NUM_FORM>
+  <LEXICAL-ENTRY POS="NOUN_NUM">
+    <NUMBER_0_TO_20>
+      <NOUN_NUM ID="2">
+        <Number>1</Number>
+        <Noun_Num_DT>واحد</Noun_Num_DT>
+      </NOUN_NUM>
+      <NOUN_NUM ID="3">
+        <Number>2</Number>
+        <Noun_Num_DT>ثنين</Noun_Num_DT>
+      </NOUN_NUM>
+      <NOUN_NUM ID="4">
+        <Number>3</Number>
+        <Noun_Num_DT>ثلاثة</Noun_Num_DT>
+      </NOUN_NUM>
+      <NOUN_NUM ID="5">
+        <Number>4</Number>
+        <Noun_Num_DT>اربعة</Noun_Num_DT>
+      </NOUN_NUM>
+      <NOUN_NUM ID="6">
+        <Number>5</Number>
+        <Noun_Num_DT>خمسة</Noun_Num_DT>
+      </NOUN_NUM>
+      <NOUN_NUM ID="7">
+        <Number>6</Number>
+        <Noun_Num_DT>ستة</Noun_Num_DT>
+      </NOUN_NUM>
+      <NOUN_NUM ID="8">
+        <Number>7</Number>
+        <Noun_Num_DT>سبعة</Noun_Num_DT>
+      </NOUN_NUM>
+      <NOUN_NUM ID="9">
+        <Number>8</Number>
+        <Noun_Num_DT>ثمنية</Noun_Num_DT>
+      </NOUN_NUM>
+      <NOUN_NUM ID="10">
+        <Number>9</Number>
+        <Noun_Num_DT>تسعة</Noun_Num_DT>
+      </NOUN_NUM>
+      <NOUN_NUM ID="11">
+        <Number>10</Number>
+        <Noun_Num_DT>عشرة</Noun_Num_DT>
+      </NOUN_NUM>
+      <NOUN_NUM ID="12">
+        <Number>11</Number>
+        <Noun_Num_DT>حداش</Noun_Num_DT>
+      </NOUN_NUM>
+      <NOUN_NUM ID="13">
+        <Number>12</Number>
+        <Noun_Num_DT>ثناش</Noun_Num_DT>
+      </NOUN_NUM>
+      <NOUN_NUM ID="14">
+        <Number>13</Number>
+        <Noun_Num_DT>ثلتطاش</Noun_Num_DT>
+      </NOUN_NUM>
+      <NOUN_NUM ID="15">
+        <Number>14</Number>
+        <Noun_Num_DT>اربعطاش</Noun_Num_DT>
+      </NOUN_NUM>
+      <NOUN_NUM ID="16">
+        <Number>15</Number>
+        <Noun_Num_DT>خمسطاش</Noun_Num_DT>
+      </NOUN_NUM>
+      <NOUN_NUM ID="17">
+        <Number>16</Number>
+        <Noun_Num_DT>ستطاش</Noun_Num_DT>
+      </NOUN_NUM>
+      <NOUN_NUM ID="18">
+        <Number>17</Number>
+        <Noun_Num_DT>سبعطاش</Noun_Num_DT>
+      </NOUN_NUM>
+      <NOUN_NUM ID="19">
+        <Number>18</Number>
+        <Noun_Num_DT>ثمنطاش</Noun_Num_DT>
+      </NOUN_NUM>
+      <NOUN_NUM ID="20">
+        <Number>19</Number>
+        <Noun_Num_DT>تسعطاش</Noun_Num_DT>
+      </NOUN_NUM>
+    </NUMBER_0_TO_20>
+    <NUMBER_10_TO_90>
+      <NOUN_NUM ID="1">
+        <Number>10</Number>
+        <Noun_Num_DT>عشرة</Noun_Num_DT>
+      </NOUN_NUM>
+      <NOUN_NUM ID="2">
+        <Number>20</Number>
+        <Noun_Num_DT>عشرين</Noun_Num_DT>
+      </NOUN_NUM>
+      <NOUN_NUM ID="3">
+        <Number>30</Number>
+        <Noun_Num_DT>ثلاثين</Noun_Num_DT>
+      </NOUN_NUM>
+      <NOUN_NUM ID="4">
+        <Number>40</Number>
+        <Noun_Num_DT>اربعين</Noun_Num_DT>
+      </NOUN_NUM>
+      <NOUN_NUM ID="5">
+        <Number>50</Number>
+        <Noun_Num_DT>خمسين</Noun_Num_DT>
+      </NOUN_NUM>
+      <NOUN_NUM ID="6">
+        <Number>60</Number>
+        <Noun_Num_DT>ستين</Noun_Num_DT>
+      </NOUN_NUM>
+      <NOUN_NUM ID="7">
+        <Number>70</Number>
+        <Noun_Num_DT>سبعين</Noun_Num_DT>
+      </NOUN_NUM>
+      <NOUN_NUM ID="8">
+        <Number>80</Number>
+        <Noun_Num_DT>ثمانين</Noun_Num_DT>
+      </NOUN_NUM>
+      <NOUN_NUM ID="9">
+		  <Number>90</Number>
+		  <Noun_Num_DT>تسعين</Noun_Num_DT>
+      </NOUN_NUM>
+    </NUMBER_10_TO_90>
+    <NUMBER_100_TO_200>
+      <NOUN_NUM ID="1">
+        <Number>100</Number>
+        <Noun_Num_DT>مية</Noun_Num_DT>
+      </NOUN_NUM>
+      <NOUN_NUM ID="2">
+        <Number>200</Number>
+        <Noun_Num_DT>ميتين</Noun_Num_DT>
+      </NOUN_NUM>
+    </NUMBER_100_TO_200>
+    <NUMBER_1000_TO_2000>
+      <NOUN_NUM ID="1">
+        <Number>1000</Number>
+        <Noun_Num_DT>الف</Noun_Num_DT>
+      </NOUN_NUM>
+      <NOUN_NUM ID="2">
+        <Number>2000</Number>
+        <Noun_Num_DT>الفين</Noun_Num_DT>
+      </NOUN_NUM>
+      <NOUN_NUM ID="3">
+        <Number>10000</Number>
+        <Noun_Num_DT>الاف</Noun_Num_DT>
+      </NOUN_NUM>
+    </NUMBER_1000_TO_2000>
+  </LEXICAL-ENTRY>
+</DIC_TUN_NUM_FORM>
+

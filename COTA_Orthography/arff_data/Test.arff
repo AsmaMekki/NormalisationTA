@@ -1,0 +1,19 @@
+@relation MyRelation
+
+@attribute car_spec {espace,h}
+@attribute prec1_spec {a,b,lim_avant1}
+@attribute prec2_spec {l,lim_avant2}
+@attribute suiv1_spec {b,a,l}
+@attribute suiv2_spec {l,d,b}
+@attribute deb1 {a,b,h}
+@attribute deb2 {l}
+@attribute fin1 {a}
+@attribute fin2 {d}
+@attribute classe {supp_esp_supp_alif,supp_esp,supp_esp_supp_lam,supp_esp_ajout_alif,supp_esp_supp_alif_lam,ajout_alif}
+
+@data
+espace,a,l,b,l,a,l,a,d,supp_esp_supp_alif
+espace,a,l,b,l,a,l,a,d,supp_esp
+espace,a,l,b,l,a,l,a,d,supp_esp_supp_lam
+espace,b,l,a,d,b,l,a,d,supp_esp_ajout_alif
+h,lim_avant1,lim_avant2,l,b,h,l,a,d,ajout_alif

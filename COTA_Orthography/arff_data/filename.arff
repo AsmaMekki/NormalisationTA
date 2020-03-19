@@ -1,0 +1,29 @@
+@relation MyRelation
+
+@attribute car_spec {h}
+@attribute prec1_spec {-}
+@attribute prec2_spec {-}
+@attribute suiv1_spec {A,_,l,-}
+@attribute suiv2_spec {_,A,l,m,x,S,t,y,E,r,$,q,f,j,H,d,w,n,b,s,Z,>,g,k,z,<,T,v,h,|,D,*,-}
+@attribute deb1 {h}
+@attribute deb2 {A,_,l}
+@attribute fin1 {A,y,H,w,d,b,m,z,r,s,E,j,f,n,k,l,T,q,S,h,D,$,x,g,t,|,'}',v,Z,>,*}
+@attribute fin2 {'\'',r,p,m,t,d,l,y,n,b,s,h,f,*,E,Z,x,q,j,T,H,$,Y,k,>,w,A,v,S,z,'}',D,g,_}
+@attribute classe {supp_esp_supp_alif,supp_esp,supp_esp_supp_lam,supp_esp_supp_lam_supp_alif,supp_esp_ajout_alif,ajout_alif}
+
+@data
+h,-,-,A,_,h,A,A,'\'',supp_esp_supp_alif
+h,-,-,A,l,h,A,y,p,supp_esp
+h,-,-,A,l,h,A,w,m,supp_esp
+h,-,-,l,_,h,l,w,m,supp_esp_supp_lam
+h,-,-,A,_,h,A,T,q,supp_esp_supp_alif
+h,-,-,l,_,h,l,T,q,supp_esp_supp_lam
+h,-,-,A,l,h,A,T,q,supp_esp
+h,-,-,l,_,h,l,T,q,supp_esp_supp_lam
+h,-,-,A,_,h,A,d,n,supp_esp_supp_alif
+h,-,-,_,A,h,_,d,n,supp_esp
+h,-,-,A,l,h,A,d,n,supp_esp
+h,-,-,A,_,h,A,t,h,supp_esp_supp_alif
+h,-,-,A,l,h,A,t,h,supp_esp
+h,-,-,l,_,h,l,A,'\'',supp_esp_supp_lam
+h,-,-,A,_,h,A,A,r,supp_esp_supp_alif

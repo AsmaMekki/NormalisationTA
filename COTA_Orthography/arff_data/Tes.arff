@@ -1,0 +1,16 @@
+@relation MyRelation
+
+@attribute car_spec {h}
+@attribute prec1_spec {-}
+@attribute prec2_spec {-}
+@attribute suiv1_spec {A,-}
+@attribute suiv2_spec {' ',-}
+@attribute suiv3_spec {A,-}
+@attribute deb1 {h}
+@attribute deb2 {A}
+@attribute fin1 {A}
+@attribute fin2 {'\''}
+@attribute classe {class}
+
+@data
+h,-,-,A,' ',A,h,A,A,'\'',class

@@ -1,0 +1,30 @@
+@relation MyRelation
+
+@attribute car_spec {h}
+@attribute prec1_spec {m,t,n,*,y,A,f,'}',l,E,$,b,S,s,w,j,d,r,D,k,-,q,H,T,h,z,g,Z,v,'\''}
+@attribute prec2_spec {s,l,>,A,h,b,t,w,d,f,m,<,y,$,r,-,n,k,v,q,*,E,j,z,T,H,x,S,|,~,D,'}',Z,&,g,'?'}
+@attribute suiv1_spec {*,_,-}
+@attribute suiv2_spec {A,-}
+@attribute suiv3_spec {-}
+@attribute deb1 {n,l,>,k,A,f,h,b,m,w,E,r,t,d,<,y,$,z,H,q,s,j,x,D,S,|,g,T,v,'?'}
+@attribute deb2 {s,E,n,l,h,A,*,y,>,w,b,z,m,<,f,$,j,r,g,S,v,t,x,d,k,q,Z,H,T,'}',D,'?',&,i}
+@attribute fin1 {m,t,n,*,y,A,f,'}',l,E,$,b,S,s,w,j,d,r,D,k,q,H,T,h,z,g,Z,v,'\''}
+@attribute fin2 {h,A,_}
+@attribute classe {pas_changement,remp_h_t}
+
+@data
+h,m,A,-,-,-,k,l,m,h,?
+h,*,h,-,-,-,h,*,*,h,?
+h,y,f,-,-,-,f,y,y,h,?
+h,t,d,-,-,-,m,s,t,h,?
+h,$,y,-,-,-,t,E,$,h,?
+h,w,l,-,-,-,E,m,w,h,?
+h,A,E,-,-,-,m,E,A,h,?
+h,b,A,-,-,-,A,l,b,h,?
+h,m,y,-,-,-,A,l,m,h,?
+h,m,y,-,-,-,A,l,m,h,?
+h,y,r,-,-,-,A,l,y,h,?
+h,y,E,-,-,-,A,l,y,h,?
+h,y,r,-,-,-,s,r,y,h,?
+h,y,b,-,-,-,b,y,y,h,?
+h,t,y,-,-,-,n,y,t,h,?
